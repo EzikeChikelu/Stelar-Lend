@@ -1,4 +1,4 @@
-import { ArrowUpRight, ChevronRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import type { Market } from "../data/markets";
 
 type Props = { markets: Market[]; onAction: (action: "Supply" | "Borrow", symbol: string) => void };
